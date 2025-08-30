@@ -1,0 +1,81 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Background with gradient */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(120deg, #1f1c2c, #928dab);
+  color: white;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  margin: 20px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #ffcc70;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
+section {
+  margin: 40px auto;
+  padding: 20px;
+  max-width: 800px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  backdrop-filter: blur(15px);
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #ffde7d;
+}
+
+/* Skills */
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+/* Projects */
+.project {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-left: 3px solid #ffcc70;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9rem;
+  margin-top: 30px;
+  opacity: 0.8;
+}
